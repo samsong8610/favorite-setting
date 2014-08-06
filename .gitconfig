@@ -1,0 +1,21 @@
+[user]
+	name = xg.song
+	email = samsong8610@gmail.com
+
+[alias]
+  co = checkout
+  ci = commit
+  st = status
+  br = branch
+  d = diff
+  dt = difftool
+  l = log --pretty=format:\"%h %ad [%an] %s%d\" --date=short
+  hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+  type = cat-file -t
+  dump = cat-file -p
+[diff]
+	tool = vimdiff
+[merge]
+	tool = vimdiff
+[difftool]
+	prompt = false
